@@ -62,7 +62,7 @@ Example Output:
 Write a python mapper
 Name : mapper.py
 Read the specification for input and output as mentioned above
-Only packages that can be imported are : json and sys
+Only packages that can be imported are : json and sys  
 Name : reducer.py
 Write a python reducer to perform the aggregation
 
