@@ -31,7 +31,7 @@ Here's a prettified version of an example JSON object:
       "cogs": 270000
     }
   }
-}
+}  
 Example Input :
 
 [
@@ -42,17 +42,17 @@ Example Input :
 {"city": "Chennai", "store_id": "ST06789", "categories": ["Home Decor", "Apparel"], "sales_data": {"Apparel": {"revenue": 850000, "cogs": 800000}, "Home Decor": {"revenue": 500000, "cogs": 450000}}},
 {"city": "Bangalore", "store_id": "ST09874", "categories": ["Apparel"], "sales_data": {"Apparel": {"revenue": 620000, "cogs": 600000}}}
 ]
-
+  
 Net Returns Formula = Revenue - COGS
-COGS = Cost of Goods and Services
+COGS = Cost of Goods and Services  
 
-Reducer
-Input : Same format as Mapper output
+Reducer  
+Input : Same format as Mapper output  
 
-Output : Independent JSON Objects
+Output : Independent JSON Objects  
 
-output of the reducer has the following keys : name of the city, number of profitable stores and number of stores at a loss.
-Example Output:
+output of the reducer has the following keys : name of the city, number of profitable stores and number of stores at a loss.  
+Example Output:  
 
 {"city": "Bangalore", "profit_stores": 2, "loss_stores": 0}
 {"city": "Chennai", "profit_stores": 1, "loss_stores": 1}
